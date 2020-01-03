@@ -5,6 +5,7 @@ require 'pry'
 # binding.pry
 
 def list_of_directors(source)
+  binding.pry
   directors_array = []
   i = 0
   while i < source.length do
